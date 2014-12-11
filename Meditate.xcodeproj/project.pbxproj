@@ -14,6 +14,7 @@
 		BF0AF7C71A394232007DD800 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7C61A394232007DD800 /* Images.xcassets */; };
 		BF0AF7CA1A394232007DD800 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7C81A394232007DD800 /* LaunchScreen.xib */; };
 		BF0AF7D61A394232007DD800 /* MeditateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AF7D51A394232007DD800 /* MeditateTests.swift */; };
+		BF0AF7E01A39525B007DD800 /* SimpleAmbient.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7DF1A39525B007DD800 /* SimpleAmbient.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BF0AF7CF1A394232007DD800 /* MeditateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0AF7D41A394232007DD800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0AF7D51A394232007DD800 /* MeditateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateTests.swift; sourceTree = "<group>"; };
+		BF0AF7DF1A39525B007DD800 /* SimpleAmbient.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleAmbient.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BF0AF7BC1A394232007DD800 /* AppDelegate.swift */,
+				BF0AF7DF1A39525B007DD800 /* SimpleAmbient.m4a */,
 				BF0AF7C11A394232007DD800 /* ViewController.swift */,
 				BF0AF7C31A394232007DD800 /* Main.storyboard */,
 				BF0AF7C61A394232007DD800 /* Images.xcassets */,
@@ -198,6 +201,7 @@
 				BF0AF7C51A394232007DD800 /* Main.storyboard in Resources */,
 				BF0AF7CA1A394232007DD800 /* LaunchScreen.xib in Resources */,
 				BF0AF7C71A394232007DD800 /* Images.xcassets in Resources */,
+				BF0AF7E01A39525B007DD800 /* SimpleAmbient.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				BF0AF7DB1A394232007DD800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF0AF7DC1A394232007DD800 /* Build configuration list for PBXNativeTarget "MeditateTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				BF0AF7DE1A394232007DD800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
