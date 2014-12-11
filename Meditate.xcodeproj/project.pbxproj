@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0AF7BD1A394232007DD800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AF7BC1A394232007DD800 /* AppDelegate.swift */; };
+		BF0AF7C01A394232007DD800 /* Meditate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF0AF7BE1A394232007DD800 /* Meditate.xcdatamodeld */; };
+		BF0AF7C21A394232007DD800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AF7C11A394232007DD800 /* ViewController.swift */; };
+		BF0AF7C51A394232007DD800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7C31A394232007DD800 /* Main.storyboard */; };
+		BF0AF7C71A394232007DD800 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7C61A394232007DD800 /* Images.xcassets */; };
+		BF0AF7CA1A394232007DD800 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0AF7C81A394232007DD800 /* LaunchScreen.xib */; };
+		BF0AF7D61A394232007DD800 /* MeditateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AF7D51A394232007DD800 /* MeditateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0AF7D01A394232007DD800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0AF7AF1A394232007DD800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0AF7B61A394232007DD800;
+			remoteInfo = Meditate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0AF7B71A394232007DD800 /* Meditate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0AF7BB1A394232007DD800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0AF7BC1A394232007DD800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0AF7BF1A394232007DD800 /* Meditate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meditate.xcdatamodel; sourceTree = "<group>"; };
+		BF0AF7C11A394232007DD800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0AF7C41A394232007DD800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0AF7C61A394232007DD800 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0AF7C91A394232007DD800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF0AF7CF1A394232007DD800 /* MeditateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0AF7D41A394232007DD800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0AF7D51A394232007DD800 /* MeditateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0AF7B41A394232007DD800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0AF7CC1A394232007DD800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0AF7AE1A394232007DD800 = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7B91A394232007DD800 /* Meditate */,
+				BF0AF7D21A394232007DD800 /* MeditateTests */,
+				BF0AF7B81A394232007DD800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0AF7B81A394232007DD800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7B71A394232007DD800 /* Meditate.app */,
+				BF0AF7CF1A394232007DD800 /* MeditateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0AF7B91A394232007DD800 /* Meditate */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7BC1A394232007DD800 /* AppDelegate.swift */,
+				BF0AF7C11A394232007DD800 /* ViewController.swift */,
+				BF0AF7C31A394232007DD800 /* Main.storyboard */,
+				BF0AF7C61A394232007DD800 /* Images.xcassets */,
+				BF0AF7C81A394232007DD800 /* LaunchScreen.xib */,
+				BF0AF7BE1A394232007DD800 /* Meditate.xcdatamodeld */,
+				BF0AF7BA1A394232007DD800 /* Supporting Files */,
+			);
+			path = Meditate;
+			sourceTree = "<group>";
+		};
+		BF0AF7BA1A394232007DD800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7BB1A394232007DD800 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0AF7D21A394232007DD800 /* MeditateTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7D51A394232007DD800 /* MeditateTests.swift */,
+				BF0AF7D31A394232007DD800 /* Supporting Files */,
+			);
+			path = MeditateTests;
+			sourceTree = "<group>";
+		};
+		BF0AF7D31A394232007DD800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AF7D41A394232007DD800 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0AF7B61A394232007DD800 /* Meditate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0AF7D91A394232007DD800 /* Build configuration list for PBXNativeTarget "Meditate" */;
+			buildPhases = (
+				BF0AF7B31A394232007DD800 /* Sources */,
+				BF0AF7B41A394232007DD800 /* Frameworks */,
+				BF0AF7B51A394232007DD800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meditate;
+			productName = Meditate;
+			productReference = BF0AF7B71A394232007DD800 /* Meditate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0AF7CE1A394232007DD800 /* MeditateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0AF7DC1A394232007DD800 /* Build configuration list for PBXNativeTarget "MeditateTests" */;
+			buildPhases = (
+				BF0AF7CB1A394232007DD800 /* Sources */,
+				BF0AF7CC1A394232007DD800 /* Frameworks */,
+				BF0AF7CD1A394232007DD800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0AF7D11A394232007DD800 /* PBXTargetDependency */,
+			);
+			name = MeditateTests;
+			productName = MeditateTests;
+			productReference = BF0AF7CF1A394232007DD800 /* MeditateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0AF7AF1A394232007DD800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ryan McMinn";
+				TargetAttributes = {
+					BF0AF7B61A394232007DD800 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BF0AF7CE1A394232007DD800 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BF0AF7B61A394232007DD800;
+					};
+				};
+			};
+			buildConfigurationList = BF0AF7B21A394232007DD800 /* Build configuration list for PBXProject "Meditate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0AF7AE1A394232007DD800;
+			productRefGroup = BF0AF7B81A394232007DD800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0AF7B61A394232007DD800 /* Meditate */,
+				BF0AF7CE1A394232007DD800 /* MeditateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0AF7B51A394232007DD800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0AF7C51A394232007DD800 /* Main.storyboard in Resources */,
+				BF0AF7CA1A394232007DD800 /* LaunchScreen.xib in Resources */,
+				BF0AF7C71A394232007DD800 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0AF7CD1A394232007DD800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0AF7B31A394232007DD800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0AF7C21A394232007DD800 /* ViewController.swift in Sources */,
+				BF0AF7C01A394232007DD800 /* Meditate.xcdatamodeld in Sources */,
+				BF0AF7BD1A394232007DD800 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0AF7CB1A394232007DD800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0AF7D61A394232007DD800 /* MeditateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0AF7D11A394232007DD800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0AF7B61A394232007DD800 /* Meditate */;
+			targetProxy = BF0AF7D01A394232007DD800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0AF7C31A394232007DD800 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0AF7C41A394232007DD800 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0AF7C81A394232007DD800 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0AF7C91A394232007DD800 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0AF7D71A394232007DD800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0AF7D81A394232007DD800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0AF7DA1A394232007DD800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meditate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0AF7DB1A394232007DD800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meditate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF0AF7DD1A394232007DD800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeditateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditate.app/Meditate";
+			};
+			name = Debug;
+		};
+		BF0AF7DE1A394232007DD800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeditateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditate.app/Meditate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0AF7B21A394232007DD800 /* Build configuration list for PBXProject "Meditate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0AF7D71A394232007DD800 /* Debug */,
+				BF0AF7D81A394232007DD800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0AF7D91A394232007DD800 /* Build configuration list for PBXNativeTarget "Meditate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0AF7DA1A394232007DD800 /* Debug */,
+				BF0AF7DB1A394232007DD800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF0AF7DC1A394232007DD800 /* Build configuration list for PBXNativeTarget "MeditateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0AF7DD1A394232007DD800 /* Debug */,
+				BF0AF7DE1A394232007DD800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF0AF7BE1A394232007DD800 /* Meditate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF0AF7BF1A394232007DD800 /* Meditate.xcdatamodel */,
+			);
+			currentVersion = BF0AF7BF1A394232007DD800 /* Meditate.xcdatamodel */;
+			path = Meditate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF0AF7AF1A394232007DD800 /* Project object */;
+}
